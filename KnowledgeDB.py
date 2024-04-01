@@ -42,26 +42,26 @@ def get_text(dir_path):
     # 遍历所有目标文件
     for one_file in tqdm(file_lst):
         file_type = one_file.split('.')[-1]
-        print(one_file)
+        # print(one_file)
         if file_type == 'md':
             loader = UnstructuredMarkdownLoader(one_file)
         elif file_type == 'txt':
             loader = UnstructuredFileLoader(one_file)
         elif file_type == 'pdf':
-            # loader = PyPDFLoader(one_file)
-            loader = UnstructuredPDFLoader(one_file)
+            loader = PyPDFLoader(one_file)
+            # loader = UnstructuredPDFLoader(one_file)
         else:
             # 如果是不符合条件的文件，直接跳过
             continue
         docs.extend(loader.load())
-        print(docs)
+        # print(docs)
 
     return docs
 
 
 # 目标文件夹
 tar_dir = [
-    "../../datasets/CS-Books-master"
+    "../../datasets/AI-interview"
 ]
 
 # 加载目标文件

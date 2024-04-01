@@ -1,7 +1,0 @@
-https://github.com/CyC2018/CS-Notes.git
-https://github.com/zixian2021/AI-interview-cards.git
-https://github.com/alirezadir/Machine-Learning-Interviews.git
-https://github.com/aishwaryanr/awesome-generative-ai-guide.git
-https://github.com/b7leung/MLE-Flashcards.git
-https://github.com/chenzomi12/AISystem.git
-https://github.com/youngyangyang04/leetcode-master.git

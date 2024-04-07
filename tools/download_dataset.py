@@ -1,7 +1,7 @@
 import os
 
 # 打开并读取文件
-with open('repositories.txt', 'r') as file:
+with open('../repositories.txt', 'r') as file:
     lines = file.readlines()
 
 target_directory = '../../datasets/AI-interview'
